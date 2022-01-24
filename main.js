@@ -31,19 +31,19 @@ function gotResults(error, results){
         
         img = document.getElementById("Background_Noise");
 
-        if(results[0].label = "Meowing"){
+        if(results[0].label == "Meowing"){
             img.src = "Cat.jpg";
             cat = cat + 1;
             document.getElementById("number_of_cats").innerHTML = cat;
-        }else if(results[0].label = "Barking"){
+        }else if(results[0].label == "Barking"){
             img.src = "Dog.jpg";
             cat = cat + 1;
             document.getElementById("number_of_dogs").innerHTML = dog;
-        }else if(results[0].label = "Roaring"){
+        }else if(results[0].label == "Roaring"){
             img.src = "Lion.jfif";
             lion = lion + 1;
             document.getElementById("number_of_lions").innerHTML = lion;
-        }else if(results[0].label = "Mooing"){
+        }else if(results[0].label == "Mooing"){
             img.src = "Cow.jpg";
             cow = cow + 1;
             document.getElementById("number_of_cows").innerHTML = cow;
