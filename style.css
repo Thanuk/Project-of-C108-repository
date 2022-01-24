@@ -1,0 +1,44 @@
+body{
+    font-family: 'Patrick Hand', cursive;
+    letter-spacing: 5px;
+    font-display: inherit;
+    font-weight: bolder;
+}
+
+.header_div{
+    background-image: linear-gradient(to left top , crimson , coral , orange , yellow, wheat);
+    font-family: 'Oleo Script', cursive;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: whitesmoke;
+}
+
+.header_div p{
+    color: rgb(248, 194, 108);
+    font-size: 22px;
+}
+
+.main_div button{
+    margin-top: 33px;
+    font-family: 'Reem Kufi', cursive;
+    padding: 10px;
+    width: 10%;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.main_div{
+    background-image: linear-gradient(to left top, crimson , coral , orange , yellow , pink ,whitesmoke);
+}
+
+.copy_right_footer{
+    position: fixed;
+    background-color: coral;
+    line-height: 20px;
+    color: khaki;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 20px 20px 20px rgb(219, 211, 139);
+}
